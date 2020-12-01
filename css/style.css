@@ -369,6 +369,12 @@ html, body{
 
     .vol-wrapper img{
         margin-top: 78px;
+        cursor: pointer;
+    }
+
+    .vol-wrapper img:hover{
+        width: 18px;
+        height: 18px;
     }
 
     .vol_control{
