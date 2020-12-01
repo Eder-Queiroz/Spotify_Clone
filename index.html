@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptions" content="Descrição do site.">
+    <meta name="keywords" content="Palras,chaves">
+    <meta name="author" charset="Eder Queiroz"> 
+    <title>Soptify - Web player</title>
+
+    <!-- =====--LINKS--===== -->
+    <link rel="shortcut icon" href="img/Spotify_Icon_RGB_Green.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<div class="flex">
+
+    <header>
+
+        <div class="logo-tipo">
+            <div class="img-logo"><a href="#"></a></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#" style="color:white; opacity: 1;"><img src="img/icons8-casa-white-24.png" alt="Icone ínicio"> Início</a></li>
+                <li><a href="#"><img src="img/icons8-pesquisar-white-24.png" alt="Icone Buscar"> Buscar</a></li>
+                <li><a href="#"><img style="width: 24px; height: 24px;" src="img/lib.png" alt="Icone Biblioteca"> Sua Biblioteca</a></li>
+            </ul>
+        </nav>
+
+        <!-- ==PLAYLISTS== -->
+
+        <div class="playlists">
+
+            <h5>playlists</h5>
+
+            <div class="criar-playlist">
+                <a href="#"><div class="img-creat-playlist"></div> Criar Playlist</a>
+            </div><!--criar-playlist-->
+
+            <div class="musicas-curtidas">
+                <a href="#"><div class="img-liked-music"></div> Músicas Curtidas</a>
+            </div><!--musicas-curtidas-->
+
+            <div class="clear"></div>
+        </div><!--playlists-->
+
+        <!-- ########## -->
+
+        <!-- LINE HEADER -->
+
+        <div class="line"></div><!--line-->
+
+        <!-- #### -->
+
+    </header>
+
+    <section class="galeria">
+
+        <div class="container">
+            <h2>Tocado recentemente</h2>
+            
+            <div class="banner-wraper">
+
+                <div id="banner" class="banner" data-image="capas-albuns/we_dont_talk_anymore.jpg" data-artist="Charlie Puth" data-song="We Don't Talk Anymore" data-file="assets/Charlie_Puth-We_Don't_Talk_Anymore.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/we_dont_talk_anymore.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>We Don't Talk Anymore (feat. Selena Gomez)</h4>
+                        <p>Charlie Puth</p>
+                        <p>Selena Gomez</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+
+                <div id="banner" class="banner" data-image="capas-albuns/Square_Hammer.jpg" data-artist="Ghost" data-song="Square Hammer" data-file="assets/Ghost-Square_Hammer.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/Square_Hammer.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>Square Hammer</h4>
+                        <p>Ghost</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+                
+                <div id="banner" class="banner" data-image="capas-albuns/we_dont_talk_anymore.jpg" data-artist="Charlie Puth" data-song="We Don't Talk Anymore" data-file="assets/Charlie_Puth-We_Don't_Talk_Anymore.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/we_dont_talk_anymore.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>We Don't Talk Anymore (feat. Selena Gomez)</h4>
+                        <p>Charlie Puth</p>
+                        <p>Selena Gomez</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+
+                <div id="banner" class="banner" data-image="capas-albuns/Square_Hammer.jpg" data-artist="Ghost" data-song="Square Hammer" data-file="assets/Ghost-Square_Hammer.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/Square_Hammer.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>Square Hammer</h4>
+                        <p>Ghost</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+
+                <div id="banner" class="banner" data-image="capas-albuns/we_dont_talk_anymore.jpg" data-artist="Charlie Puth" data-song="We Don't Talk Anymore" data-file="assets/Charlie_Puth-We_Don't_Talk_Anymore.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/we_dont_talk_anymore.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>We Don't Talk Anymore (feat. Selena Gomez)</h4>
+                        <p>Charlie Puth</p>
+                        <p>Selena Gomez</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+
+                <div id="banner" class="banner" data-image="capas-albuns/Square_Hammer.jpg" data-artist="Ghost" data-song="Square Hammer" data-file="assets/Ghost-Square_Hammer.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/Square_Hammer.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>Square Hammer</h4>
+                        <p>Ghost</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+
+            </div><!--banner-wraper-->
+        </div><!--container-->
+
+        <div class="container">
+
+            <h2>As mais populares</h2>
+
+            <div class="banner-wraper">
+
+                <div id="banner" class="banner" data-image="capas-albuns/we_dont_talk_anymore.jpg" data-artist="Charlie Puth" data-song="We Don't Talk Anymore" data-file="assets/Charlie_Puth-We_Don't_Talk_Anymore.mp3" onclick="playSong(this);">
+                    <div class="capa-album" style="background-image: url('capas-albuns/we_dont_talk_anymore.jpg');">
+                        <div class="playbtn"></div><!--playbtn-->
+                    </div><!--capa-album-->
+                    <div class="text-banner">
+                        <h4>We Don't Talk Anymore (feat. Selena Gomez)</h4>
+                        <p>Charlie Puth</p>
+                        <p>Selena Gomez</p>
+                    </div><!--text-banner-->
+                </div><!--banner-->
+
+            </div><!--banner-wraper-->
+
+        </div><!--container-->
+
+    </section><!--galeria-->
+
+</div><!--flex-->
+
+    <section class="player">
+        
+        <div class="player_artista"></div><!--player_artista-->
+
+        <!-- PLAYER -->
+
+        <div class="player_control">
+
+            <div class="player_control_buttons">
+
+                <a href="#"><img src="img/icons8-prev-24.png" alt="anterior"></a>
+                <a style="display: none;" id="pauseBtn" href="#"><img src="img/icons8-pause-48.png" alt="pause"></a>
+                <a id="playBtn" href="#"><img src="img/icons8-play-48.png" alt="play"></a>
+                <a href="#"><img src="img/icons8-next-24.png" alt="proximo"></a>
+
+            </div><!--player_control_buttons-->
+
+            <span id="current-duration" class="timer">00:00</span>
+                <div class="seekbar-wrapper">
+                    <input type="range" min="0" max="0" step="1" id="seekbar" class="seekbar">
+                </div><!--seekbar-wrapper-->
+            <span id="total-duration" class="timer">00:00</span>
+
+        </div><!--player_controle-->
+
+        <!-- #### -->
+        
+        <!--Volume Controller-->
+
+        <div class="vol-wrapper" ontimeupdate='updateTrackTime(this);'>
+            <img id="vol" src="img/icons8-som-16.png" alt="som">
+            <input class="vol_control" id="vol_control" type="range" min="0" max="100" value="100" step="1"></input>
+        </div><!--vol-wrapper-->
+
+    </section>
+
+    <audio id="audioPlayer">
+        <source src="" type="audio/mp3" id="audioSource">
+    </audio>
+
+<script src="js/jquery.js"></script>
+<script src="js/player.js"></script>
+<script src="js/audiomaneger.js"></script>
+<script src="js/player_description.js"></script>
+</body>
+</html>
